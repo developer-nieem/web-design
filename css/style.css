@@ -1,0 +1,274 @@
+*{margin:0px; padding:0px;
+scroll-behavior: smooth;
+
+}
+body {
+    overflow-x: hidden;
+    font-family: lato;
+}
+/* Fixd css End */
+
+/* ======================== */
+
+/* Navbar css start */
+.navbar{
+    padding: 0px 16px;
+}
+.navbar-brand{
+    font-size: 40px;
+    padding-top: 0px
+}
+.navbar-nav li{
+    margin-right: 13px;
+}
+.navbar-nav li a{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff !important;
+}
+.navbar-nav li a.active,
+.navbar-nav li a:hover{
+   color:  rgba(255,255,255,.5) !important;
+}
+
+/* Navbar css End */
+
+/* ======================== */
+
+/* Header Section css Start */
+
+.container-fluid{
+    padding-left: 0px ;
+    padding-right: 0px ;
+}
+.header-bg-image{
+    background: url('../img/computers.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  height: 100vh;
+    position: relative;
+    
+}
+.header-info{
+    position: absolute;
+    top: 37px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    height: 200px;
+    font-family: lato;
+}
+.header-info h1{
+    letter-spacing: 5px;
+    font-size: 45px;
+    font-weight: 700;
+}
+.header-info h3{
+    letter-spacing: 4px;
+}
+.header-info  .btn-lg{
+    border: 3px solid #fff;
+    border-radius: 0px;
+}
+
+/* Header Section css End*/
+
+/* ======================== */
+
+/* Course Section css Start*/
+
+.course-section:before{
+    content: ' ';
+    display: block;
+    height: 64px;
+    margin-top: -64px;
+}
+.course-info{
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.course-info h2{
+      text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 6px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    color: #444444f2;
+}
+.course-info p{
+    font-size: 16px ;
+    word-spacing: 2px ;
+    color: #756969e0;
+}
+/* === Course section css End === */
+
+/* ======================== */
+
+/* === Feature section css Start === */
+
+.feature-section-part:before{
+    content: ' ';
+    display: block;
+    height: 64px;
+    margin-top: -64px;
+}
+
+.feature-heading{
+    padding-bottom: 50px;
+}
+.feature-heading h1{
+    text-transform: uppercase;
+    color: #292727a6;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+.feature-heading hr{
+    height: 2px;
+    background: red;
+    width: 100px;
+    margin: auto;
+}
+
+.feature-content{
+   padding-bottom: 80px;
+}
+.feature-content i{
+    color: #1DB298;
+}
+.feature-content h1{
+    
+    text-transform: uppercase;
+    font-size: 31px;
+    word-spacing: 8px;
+    padding-top: 20px;
+    color: #20937F;
+}
+.feature-content p{
+    color: #164A41E6;
+}
+
+/* Features Section css  End */
+
+/* ======================== */
+
+/* Resources Section css  Start */
+
+.resources-section:before{
+    content: ' ';
+    display: block;
+    height: 64px;
+    margin-top: -64px;
+}
+.resources-section{
+    background: url('../img/desk2.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  height: 100vh;
+    
+}
+
+.resources-full-content{
+    
+    padding-top: 120px;
+    width: 100%;
+    height: 300px;
+    font-family: lato;
+}
+.build-care-info{
+    padding-bottom: 50px;
+}
+.build-care-info h1{
+    text-transform: uppercase;
+    color: #ffffffeb;
+    font-weight: 700;
+    padding-bottom: 5px;
+    letter-spacing: 8px;
+}
+.build-care-info hr{
+    height: 2px;
+    background: #d09292;
+    width: 200px;
+    margin: auto;
+}
+.build-care-content{
+    text-align: center;
+}
+.build-care-content h1{
+    color: #fff;
+    font-weight: 700;
+    padding-bottom: 12px;
+}
+.build-care-content i{
+    color: #1DB298;
+}
+.build-care-content p{
+    color: #fff;
+    padding-top: 8px;
+    font-weight: 700;
+}
+/* Resources Section css  End*/
+
+/* ======================== */
+
+/* Client Section css  Start*/
+.client-section:before{
+    content: '';
+    display: block;
+    height: 64px;
+    margin-top: -64px;
+}
+.client-info{
+    padding-bottom: 50px;
+}
+.client-info h1{
+    text-transform: uppercase;
+    color: #292727a6;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.client-info hr{
+    height: 2px;
+    background: red;
+    width: 100px;
+    margin: auto;
+}
+.client-content blockquote{
+    color: #645656db;
+}
+.client-img img{
+    width: 100%;
+    border-radius: 50%;
+}
+.client-content  i{
+    margin: 16px 16px 0px 16px;
+    color: #1DB298;
+}
+
+/* Clients section css End */
+/* ================== */
+/* Contact section css Start */
+
+.contact-info{
+    padding-top: 30px; 
+}
+.contact-info a{
+    color: #fff;
+    font-size: 40px;
+   
+}
+.contact-info a:hover{
+    text-decoration: none;
+}
+.contact-info strong{
+    font-size: 20px;
+}
+.social-contact a{
+    font-size: 20px;
+}
+/* Contact section css End */

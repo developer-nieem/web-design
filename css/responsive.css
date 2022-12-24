@@ -1,0 +1,53 @@
+
+
+
+@media screen and (min-width: 0px) and (max-width: 767px){
+
+/* Header Section css Start */
+.header-info h1{
+	    letter-spacing: 3px !important;
+	    font-size: 32px !important;
+	    font-weight: 700 !important;
+ }
+.header-info h3{
+    letter-spacing: 2px !important;
+    font-size: 20px !important;
+}
+
+/* Header Section css End*/
+
+/* Course Section css Start*/
+.course-info h2{
+    
+    font-size: 22px !important;
+    letter-spacing: 2px !important;
+    font-weight: bold !important;
+    
+}
+.course-info p{
+	font-size: 16px !important;
+    word-spacing: 2px !important;
+    color: #756969e0;
+}
+/* Features Section css  End */
+
+/* ======================== */
+
+/* Resources Section css  Start */
+.resources-full-content{
+    
+    padding-top: 50px !important;
+}
+.build-care-info{
+    padding-bottom: 50px !important ;
+}
+.build-care-info h1{
+    font-size: 28px !important;
+}
+.build-care-content h1{
+    font-size: 27px !important;
+}
+/* Resources Section css  End*/
+
+
+}
